@@ -1,0 +1,72 @@
+:root{
+    --primary:#61892F;
+    --neon:#86C232;
+    --dark:#222629;
+    --grey:#474B4F;
+    --light:#6B6E70;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--dark);
+    font-family: sans-serif;
+}
+.A{
+    margin-top: 10%;
+}
+.A h1{
+    font-family: sans-serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+}
+.team{
+    display:flex;
+    text-align: center;
+    width:auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team .team_menber{
+    background:#61892F;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: white;
+    position: relative;
+
+}
+.team .team_menber h3{
+    color:#474B4F;
+    font-size: 26px;
+    margin-top: 50px;
+
+}
+.team .team_menber p.role{
+    color:#222629;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.team .team_menber .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:var(--primary);
+}
+.team .team_menber .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
