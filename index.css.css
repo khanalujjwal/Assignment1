@@ -175,21 +175,8 @@ label {
     display: block;
 }
 
-@media (max-width:800px) {
-    .part {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        width: 100%;
-        top: 75px;
-        right: 0;
-        z-index: 2;
-    }
-    
 
-
-}
-@media only screen and (max-width:750px) {
-
+@media (max-width:760px){
     
 }
+    
