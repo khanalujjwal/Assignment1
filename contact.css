@@ -1,27 +1,31 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --webkit-font-smotthing:antialiased;
+    --webkit-font-smotthing: antialiased;
     font-family: sans-serif;
-    
+
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.items-center{
+
+.items-center {
     align-items: center;
 }
-.justify-between{
+
+.justify-between {
     justify-content: space-between;
 }
-.container{
+
+.container {
     max-width: 1152px;
-    padding:0 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
-header nav .left a{
+
+header nav .left a {
     color: white;
     text-decoration: none;
     margin-right: 2rem;
@@ -29,22 +33,26 @@ header nav .left a{
     transition: all .3s ease;
 
 }
-header nav .left a:hover{
+
+header nav .left a:hover {
     color: var(--primary);
 }
 
-header nav{
+header nav {
     padding: 2rem 0;
 }
-header nav .logo{
+
+header nav .logo {
     margin-right: 3rem;
 
 }
-body{
+
+body {
     background-color: #222629;
-   
+
 }
-.contact-box{
+
+.contact-box {
     width: 85%;
     max-width: 600px;
     background: #eee;
@@ -52,28 +60,33 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding:30px 40px; 
+    padding: 30px 40px;
     border-radius: 8px;
     text-align: center;
 }
-.form{
+
+.form {
     border: 1px solid #a9a9a9;
     margin: 7px 0px;
     padding: 6px 20px;
     border-radius: 8px;
 }
-.contact-box h1{
+
+.contact-box h1 {
     font-weight: 500;
     margin-top: 0px;
 }
-.form lable{
+
+.form lable {
     font-size: 13px;
     color: #000;
     display: block;
     text-align: left;
     text-transform: uppercase;
 }
-.form input, .form textarea{
+
+.form input,
+.form textarea {
     width: 100%;
     font-size: 19px;
     margin-top: 5px;
@@ -81,7 +94,8 @@ body{
     background: none;
     outline: none;
 }
-.button{
+
+.button {
     width: 100%;
     display: inline-block;
     background-color: #61892F;
