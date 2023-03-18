@@ -56,7 +56,7 @@ body {
     width: 85%;
     max-width: 600px;
     background: #eee;
-    position: absolute;
+    position:fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
