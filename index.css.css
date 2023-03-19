@@ -173,23 +173,23 @@ label {
     display: block;
 }
 
-.ham{
+.ham {
     display: none;
 }
 
 
 
-  @media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     /*screen upto 600px (mobile)*/
-    
-  }
 
-  @media only screen and (min-width:601px) and (max-width: 1300px){
+}
+
+@media only screen and (min-width:601px) and (max-width: 1300px) {
     /*screen between 601px to 1300px (tablet)*/
-    
-  }
 
-  @media only screen and (max-width: 1301px) and (max-width: 1800px){
+}
+
+@media only screen and (max-width: 1301px) and (max-width: 1800px) {
     /*screen upto 1301px to 1800px (tablet-desktop)*/
 
-  }
+}
